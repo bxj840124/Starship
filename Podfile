@@ -8,4 +8,7 @@ target 'Starship' do
   # Pods for Starship
     pod 'SlideMenuControllerSwift'
     pod 'SideMenu'
+    pod 'RealmSwift'
+    pod 'SwiftyGif'
+    pod 'iCarousel'
 end

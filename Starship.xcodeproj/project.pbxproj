@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D414AC541F9F7A9400D3E3DC /* popEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414AC531F9F7A9400D3E3DC /* popEditTableViewController.swift */; };
+		D414AC561F9F980200D3E3DC /* EditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D414AC551F9F980200D3E3DC /* EditCell.xib */; };
+		D414AC581F9F986500D3E3DC /* popEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414AC571F9F986500D3E3DC /* popEditTableViewCell.swift */; };
+		D414AC5A1F9FB11E00D3E3DC /* collectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414AC591F9FB11E00D3E3DC /* collectionData.swift */; };
 		D42E10FB1F6A687000E2E7DC /* previewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42E10FA1F6A687000E2E7DC /* previewCollectionViewCell.swift */; };
 		D42E11051F6A83DF00E2E7DC /* previewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42E11041F6A83DF00E2E7DC /* previewViewController.swift */; };
 		D42E11071F6A989B00E2E7DC /* previewCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42E11061F6A989B00E2E7DC /* previewCollectionViewCell2.swift */; };
@@ -14,7 +18,6 @@
 		D44470171F6BE19800F5EE1A /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470161F6BE19800F5EE1A /* gameViewController.swift */; };
 		D44470191F6BE3BE00F5EE1A /* gameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470181F6BE3BE00F5EE1A /* gameCollectionViewCell.swift */; };
 		D444701B1F6C4CD900F5EE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D444701A1F6C4CD900F5EE1A /* Assets.xcassets */; };
-		D444701D1F6C4E0D00F5EE1A /* guideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444701C1F6C4E0D00F5EE1A /* guideViewController.swift */; };
 		D444701F1F6C563900F5EE1A /* gameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444701E1F6C563900F5EE1A /* gameDetailViewController.swift */; };
 		D44470211F6D088B00F5EE1A /* highFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470201F6D088B00F5EE1A /* highFiveViewController.swift */; };
 		D44470231F6D118100F5EE1A /* endGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470221F6D118100F5EE1A /* endGameViewController.swift */; };
@@ -27,13 +30,14 @@
 		D44470311F6E315800F5EE1A /* assignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470301F6E315800F5EE1A /* assignViewController.swift */; };
 		D44470331F6E348500F5EE1A /* assignCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470321F6E348500F5EE1A /* assignCollectionReusableView.swift */; };
 		D44470351F6E3C9000F5EE1A /* assignFinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44470341F6E3C9000F5EE1A /* assignFinishViewController.swift */; };
+		D44AC49F1FBCB8160043943C /* animate2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44AC49E1FBCB8160043943C /* animate2ViewController.swift */; };
+		D44AC4A11FBCBFBC0043943C /* recordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44AC4A01FBCBFBC0043943C /* recordViewController.swift */; };
 		D473ECEF1F665BF50055CE2F /* rewardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473ECEE1F665BF50055CE2F /* rewardCollectionViewCell.swift */; };
 		D473ECF11F6665140055CE2F /* infoClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473ECF01F6665140055CE2F /* infoClassCollectionViewCell.swift */; };
 		D473ECF31F6674100055CE2F /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D473ECF21F6674100055CE2F /* LineChart.swift */; };
 		D495A26A1F62925100D19925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A2691F62925100D19925 /* AppDelegate.swift */; };
 		D495A26C1F62925100D19925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A26B1F62925100D19925 /* ViewController.swift */; };
 		D495A26F1F62925100D19925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D495A26D1F62925100D19925 /* Main.storyboard */; };
-		D495A2721F62925100D19925 /* Starship.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D495A2701F62925100D19925 /* Starship.xcdatamodeld */; };
 		D495A2771F62925100D19925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D495A2751F62925100D19925 /* LaunchScreen.storyboard */; };
 		D495A2811F62E1ED00D19925 /* therapistEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A2801F62E1ED00D19925 /* therapistEntryViewController.swift */; };
 		D495A2831F62E1F800D19925 /* parentEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A2821F62E1F800D19925 /* parentEntryViewController.swift */; };
@@ -45,13 +49,27 @@
 		D495A2991F6466D400D19925 /* createClassViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A2981F6466D400D19925 /* createClassViewController2.swift */; };
 		D495A29B1F65222100D19925 /* createClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A29A1F65222100D19925 /* createClassCollectionViewCell.swift */; };
 		D495A29D1F65235500D19925 /* currentClassCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495A29C1F65235500D19925 /* currentClassCollectionViewCell.swift */; };
+		D49BEE4B1F8B1B7C00B05E83 /* gameCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BEE4A1F8B1B7C00B05E83 /* gameCollectionViewCell2.swift */; };
 		D4C3AFDB1F65637900DBEABF /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C3AFDA1F65637900DBEABF /* infoViewController.swift */; };
+		D4D60DD21FBB3AF600376316 /* stickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D60DD11FBB3AF600376316 /* stickerViewController.swift */; };
+		D4D60DD61FBC789C00376316 /* animate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D60DD51FBC789C00376316 /* animate1ViewController.swift */; };
+		D4D60DD91FBC7AE000376316 /* 動畫2.gif in Resources */ = {isa = PBXBuildFile; fileRef = D4D60DD71FBC7AC700376316 /* 動畫2.gif */; };
+		D4D60DDA1FBC7AE000376316 /* 動畫1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D4D60DD81FBC7AD400376316 /* 動畫1.gif */; };
+		D4F516651FA096C000A43CA7 /* guideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F516641FA096C000A43CA7 /* guideViewController.swift */; };
+		D4F5D7D91F97AB8A00514456 /* classStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5D7D81F97AB8A00514456 /* classStep.swift */; };
+		D4F5D7DC1F97AE4A00514456 /* classData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5D7DB1F97AE4A00514456 /* classData.swift */; };
+		D4FBCB401FBC8A8D00B2D2CD /* carouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FBCB3F1FBC8A8D00B2D2CD /* carouselViewController.swift */; };
 		DB2C48EFD49865DE1002C0C3 /* Pods_Starship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF760F087669D75F3DD20EF8 /* Pods_Starship.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DCA673122C0D11BA9FA9093 /* Pods-Starship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starship.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Starship/Pods-Starship.debug.xcconfig"; sourceTree = "<group>"; };
 		81D26A9D7BFC410B7682A158 /* Pods-Starship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Starship.release.xcconfig"; path = "Pods/Target Support Files/Pods-Starship/Pods-Starship.release.xcconfig"; sourceTree = "<group>"; };
+		D414AC531F9F7A9400D3E3DC /* popEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popEditTableViewController.swift; sourceTree = "<group>"; };
+		D414AC551F9F980200D3E3DC /* EditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCell.xib; sourceTree = "<group>"; };
+		D414AC571F9F986500D3E3DC /* popEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popEditTableViewCell.swift; sourceTree = "<group>"; };
+		D414AC591F9FB11E00D3E3DC /* collectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionData.swift; sourceTree = "<group>"; };
+		D42BCF5E1F99E30400DCEBD5 /* Starship.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starship.xcdatamodel; sourceTree = "<group>"; };
 		D42E10FA1F6A687000E2E7DC /* previewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = previewCollectionViewCell.swift; sourceTree = "<group>"; };
 		D42E11041F6A83DF00E2E7DC /* previewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = previewViewController.swift; sourceTree = "<group>"; };
 		D42E11061F6A989B00E2E7DC /* previewCollectionViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = previewCollectionViewCell2.swift; sourceTree = "<group>"; };
@@ -59,7 +77,6 @@
 		D44470161F6BE19800F5EE1A /* gameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
 		D44470181F6BE3BE00F5EE1A /* gameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameCollectionViewCell.swift; sourceTree = "<group>"; };
 		D444701A1F6C4CD900F5EE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D444701C1F6C4E0D00F5EE1A /* guideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = guideViewController.swift; sourceTree = "<group>"; };
 		D444701E1F6C563900F5EE1A /* gameDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameDetailViewController.swift; sourceTree = "<group>"; };
 		D44470201F6D088B00F5EE1A /* highFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = highFiveViewController.swift; sourceTree = "<group>"; };
 		D44470221F6D118100F5EE1A /* endGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = endGameViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +89,8 @@
 		D44470301F6E315800F5EE1A /* assignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignViewController.swift; sourceTree = "<group>"; };
 		D44470321F6E348500F5EE1A /* assignCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignCollectionReusableView.swift; sourceTree = "<group>"; };
 		D44470341F6E3C9000F5EE1A /* assignFinishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assignFinishViewController.swift; sourceTree = "<group>"; };
+		D44AC49E1FBCB8160043943C /* animate2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animate2ViewController.swift; sourceTree = "<group>"; };
+		D44AC4A01FBCBFBC0043943C /* recordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordViewController.swift; sourceTree = "<group>"; };
 		D473ECEE1F665BF50055CE2F /* rewardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rewardCollectionViewCell.swift; sourceTree = "<group>"; };
 		D473ECF01F6665140055CE2F /* infoClassCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoClassCollectionViewCell.swift; sourceTree = "<group>"; };
 		D473ECF21F6674100055CE2F /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
@@ -79,7 +98,6 @@
 		D495A2691F62925100D19925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D495A26B1F62925100D19925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D495A26E1F62925100D19925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D495A2711F62925100D19925 /* Starship.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starship.xcdatamodel; sourceTree = "<group>"; };
 		D495A2761F62925100D19925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D495A2781F62925100D19925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D495A2801F62E1ED00D19925 /* therapistEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = therapistEntryViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +110,16 @@
 		D495A2981F6466D400D19925 /* createClassViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createClassViewController2.swift; sourceTree = "<group>"; };
 		D495A29A1F65222100D19925 /* createClassCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createClassCollectionViewCell.swift; sourceTree = "<group>"; };
 		D495A29C1F65235500D19925 /* currentClassCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currentClassCollectionViewCell.swift; sourceTree = "<group>"; };
+		D49BEE4A1F8B1B7C00B05E83 /* gameCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameCollectionViewCell2.swift; sourceTree = "<group>"; };
 		D4C3AFDA1F65637900DBEABF /* infoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
+		D4D60DD11FBB3AF600376316 /* stickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickerViewController.swift; sourceTree = "<group>"; };
+		D4D60DD51FBC789C00376316 /* animate1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animate1ViewController.swift; sourceTree = "<group>"; };
+		D4D60DD71FBC7AC700376316 /* 動畫2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "動畫2.gif"; sourceTree = "<group>"; };
+		D4D60DD81FBC7AD400376316 /* 動畫1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "動畫1.gif"; sourceTree = "<group>"; };
+		D4F516641FA096C000A43CA7 /* guideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guideViewController.swift; sourceTree = "<group>"; };
+		D4F5D7D81F97AB8A00514456 /* classStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classStep.swift; sourceTree = "<group>"; };
+		D4F5D7DB1F97AE4A00514456 /* classData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classData.swift; sourceTree = "<group>"; };
+		D4FBCB3F1FBC8A8D00B2D2CD /* carouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselViewController.swift; sourceTree = "<group>"; };
 		DF760F087669D75F3DD20EF8 /* Pods_Starship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,47 +165,117 @@
 			isa = PBXGroup;
 			children = (
 				D444701A1F6C4CD900F5EE1A /* Assets.xcassets */,
-				D44470241F6D4A2400F5EE1A /* moreClassCollectionViewCell.swift */,
-				D44470201F6D088B00F5EE1A /* highFiveViewController.swift */,
-				D44470141F6BD73300F5EE1A /* shareViewController.swift */,
-				D42E11061F6A989B00E2E7DC /* previewCollectionViewCell2.swift */,
-				D44470161F6BE19800F5EE1A /* gameViewController.swift */,
 				D495A2691F62925100D19925 /* AppDelegate.swift */,
 				D495A26B1F62925100D19925 /* ViewController.swift */,
-				D495A2901F63E4A200D19925 /* therapistClassViewController.swift */,
-				D444702C1F6DC71B00F5EE1A /* classCollectionReusableView.swift */,
-				D495A2921F64024D00D19925 /* classCollectionViewCell.swift */,
 				D495A26D1F62925100D19925 /* Main.storyboard */,
-				D44470341F6E3C9000F5EE1A /* assignFinishViewController.swift */,
-				D44470321F6E348500F5EE1A /* assignCollectionReusableView.swift */,
-				D444702E1F6E30EA00F5EE1A /* assignCollectionViewCell.swift */,
-				D44470301F6E315800F5EE1A /* assignViewController.swift */,
-				D444702A1F6D983000F5EE1A /* moreCollectionReusableView.swift */,
-				D44470281F6D8E3900F5EE1A /* classRecordCollectionViewCell.swift */,
-				D44470261F6D52B300F5EE1A /* moreClassViewController.swift */,
-				D44470221F6D118100F5EE1A /* endGameViewController.swift */,
-				D444701E1F6C563900F5EE1A /* gameDetailViewController.swift */,
-				D444701C1F6C4E0D00F5EE1A /* guideViewController.swift */,
-				D473ECF01F6665140055CE2F /* infoClassCollectionViewCell.swift */,
-				D4C3AFDA1F65637900DBEABF /* infoViewController.swift */,
-				D495A29A1F65222100D19925 /* createClassCollectionViewCell.swift */,
-				D495A2961F64642D00D19925 /* createClassViewController1.swift */,
-				D42E11041F6A83DF00E2E7DC /* previewViewController.swift */,
-				D495A29C1F65235500D19925 /* currentClassCollectionViewCell.swift */,
-				D495A2981F6466D400D19925 /* createClassViewController2.swift */,
-				D42E10FA1F6A687000E2E7DC /* previewCollectionViewCell.swift */,
-				D495A28E1F63AA1200D19925 /* createPatientViewController.swift */,
-				D495A2801F62E1ED00D19925 /* therapistEntryViewController.swift */,
-				D473ECEE1F665BF50055CE2F /* rewardCollectionViewCell.swift */,
-				D495A2861F6391DF00D19925 /* therapistCollectionViewCell.swift */,
-				D495A2821F62E1F800D19925 /* parentEntryViewController.swift */,
-				D44470181F6BE3BE00F5EE1A /* gameCollectionViewCell.swift */,
-				D473ECF21F6674100055CE2F /* LineChart.swift */,
 				D495A2751F62925100D19925 /* LaunchScreen.storyboard */,
+				D4D60DD81FBC7AD400376316 /* 動畫1.gif */,
+				D4D60DD71FBC7AC700376316 /* 動畫2.gif */,
+				D4F5D7DA1F97ABE000514456 /* classObject */,
+				D4F5D7D21F973CB400514456 /* Therapist */,
+				D4F5D7D31F973CD300514456 /* Parent */,
+				D4F5D7D41F973CDA00514456 /* Game */,
+				D4F5D7D51F973CF300514456 /* Patient */,
 				D495A2781F62925100D19925 /* Info.plist */,
-				D495A2701F62925100D19925 /* Starship.xcdatamodeld */,
+				D42BCF5D1F99E30400DCEBD5 /* Starship.xcdatamodeld */,
 			);
 			path = Starship;
+			sourceTree = "<group>";
+		};
+		D4F5D7D21F973CB400514456 /* Therapist */ = {
+			isa = PBXGroup;
+			children = (
+				D495A2801F62E1ED00D19925 /* therapistEntryViewController.swift */,
+				D495A2901F63E4A200D19925 /* therapistClassViewController.swift */,
+				D495A2861F6391DF00D19925 /* therapistCollectionViewCell.swift */,
+				D44470141F6BD73300F5EE1A /* shareViewController.swift */,
+				D44470301F6E315800F5EE1A /* assignViewController.swift */,
+				D444702E1F6E30EA00F5EE1A /* assignCollectionViewCell.swift */,
+				D44470321F6E348500F5EE1A /* assignCollectionReusableView.swift */,
+				D44470341F6E3C9000F5EE1A /* assignFinishViewController.swift */,
+				D495A2921F64024D00D19925 /* classCollectionViewCell.swift */,
+				D414AC531F9F7A9400D3E3DC /* popEditTableViewController.swift */,
+				D414AC571F9F986500D3E3DC /* popEditTableViewCell.swift */,
+				D414AC551F9F980200D3E3DC /* EditCell.xib */,
+				D4F5D7D61F973EC200514456 /* createClass */,
+				D4F5D7D71F973ED000514456 /* createPatient */,
+			);
+			path = Therapist;
+			sourceTree = "<group>";
+		};
+		D4F5D7D31F973CD300514456 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				D495A2821F62E1F800D19925 /* parentEntryViewController.swift */,
+				D444702C1F6DC71B00F5EE1A /* classCollectionReusableView.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		D4F5D7D41F973CDA00514456 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				D44AC4A01FBCBFBC0043943C /* recordViewController.swift */,
+				D44AC49E1FBCB8160043943C /* animate2ViewController.swift */,
+				D4FBCB3F1FBC8A8D00B2D2CD /* carouselViewController.swift */,
+				D4D60DD51FBC789C00376316 /* animate1ViewController.swift */,
+				D44470161F6BE19800F5EE1A /* gameViewController.swift */,
+				D4D60DD11FBB3AF600376316 /* stickerViewController.swift */,
+				D44470181F6BE3BE00F5EE1A /* gameCollectionViewCell.swift */,
+				D49BEE4A1F8B1B7C00B05E83 /* gameCollectionViewCell2.swift */,
+				D4F516641FA096C000A43CA7 /* guideViewController.swift */,
+				D444701E1F6C563900F5EE1A /* gameDetailViewController.swift */,
+				D44470201F6D088B00F5EE1A /* highFiveViewController.swift */,
+				D44470221F6D118100F5EE1A /* endGameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		D4F5D7D51F973CF300514456 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				D44470261F6D52B300F5EE1A /* moreClassViewController.swift */,
+				D444702A1F6D983000F5EE1A /* moreCollectionReusableView.swift */,
+				D44470241F6D4A2400F5EE1A /* moreClassCollectionViewCell.swift */,
+				D4C3AFDA1F65637900DBEABF /* infoViewController.swift */,
+				D473ECF01F6665140055CE2F /* infoClassCollectionViewCell.swift */,
+				D44470281F6D8E3900F5EE1A /* classRecordCollectionViewCell.swift */,
+				D473ECEE1F665BF50055CE2F /* rewardCollectionViewCell.swift */,
+				D473ECF21F6674100055CE2F /* LineChart.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
+		D4F5D7D61F973EC200514456 /* createClass */ = {
+			isa = PBXGroup;
+			children = (
+				D42E11041F6A83DF00E2E7DC /* previewViewController.swift */,
+				D42E10FA1F6A687000E2E7DC /* previewCollectionViewCell.swift */,
+				D42E11061F6A989B00E2E7DC /* previewCollectionViewCell2.swift */,
+				D495A29C1F65235500D19925 /* currentClassCollectionViewCell.swift */,
+				D495A29A1F65222100D19925 /* createClassCollectionViewCell.swift */,
+				D495A2961F64642D00D19925 /* createClassViewController1.swift */,
+				D495A2981F6466D400D19925 /* createClassViewController2.swift */,
+			);
+			path = createClass;
+			sourceTree = "<group>";
+		};
+		D4F5D7D71F973ED000514456 /* createPatient */ = {
+			isa = PBXGroup;
+			children = (
+				D495A28E1F63AA1200D19925 /* createPatientViewController.swift */,
+			);
+			path = createPatient;
+			sourceTree = "<group>";
+		};
+		D4F5D7DA1F97ABE000514456 /* classObject */ = {
+			isa = PBXGroup;
+			children = (
+				D4F5D7DB1F97AE4A00514456 /* classData.swift */,
+				D4F5D7D81F97AB8A00514456 /* classStep.swift */,
+				D414AC591F9FB11E00D3E3DC /* collectionData.swift */,
+			);
+			path = classObject;
 			sourceTree = "<group>";
 		};
 		E51658B76493BD90B758D528 /* Pods */ = {
@@ -253,9 +350,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D60DDA1FBC7AE000376316 /* 動畫1.gif in Resources */,
 				D495A2771F62925100D19925 /* LaunchScreen.storyboard in Resources */,
 				D444701B1F6C4CD900F5EE1A /* Assets.xcassets in Resources */,
 				D495A26F1F62925100D19925 /* Main.storyboard in Resources */,
+				D414AC561F9F980200D3E3DC /* EditCell.xib in Resources */,
+				D4D60DD91FBC7AE000376316 /* 動畫2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,13 +369,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Starship/Pods-Starship-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iCarousel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -330,11 +438,16 @@
 				D444702D1F6DC71B00F5EE1A /* classCollectionReusableView.swift in Sources */,
 				D495A2871F6391DF00D19925 /* therapistCollectionViewCell.swift in Sources */,
 				D444702F1F6E30EA00F5EE1A /* assignCollectionViewCell.swift in Sources */,
+				D4D60DD21FBB3AF600376316 /* stickerViewController.swift in Sources */,
 				D42E10FB1F6A687000E2E7DC /* previewCollectionViewCell.swift in Sources */,
 				D495A26A1F62925100D19925 /* AppDelegate.swift in Sources */,
 				D495A2831F62E1F800D19925 /* parentEntryViewController.swift in Sources */,
 				D495A28F1F63AA1200D19925 /* createPatientViewController.swift in Sources */,
+				D44AC4A11FBCBFBC0043943C /* recordViewController.swift in Sources */,
+				D49BEE4B1F8B1B7C00B05E83 /* gameCollectionViewCell2.swift in Sources */,
+				D4D60DD61FBC789C00376316 /* animate1ViewController.swift in Sources */,
 				D44470251F6D4A2400F5EE1A /* moreClassCollectionViewCell.swift in Sources */,
+				D414AC541F9F7A9400D3E3DC /* popEditTableViewController.swift in Sources */,
 				D44470171F6BE19800F5EE1A /* gameViewController.swift in Sources */,
 				D44470211F6D088B00F5EE1A /* highFiveViewController.swift in Sources */,
 				D44470231F6D118100F5EE1A /* endGameViewController.swift in Sources */,
@@ -349,15 +462,20 @@
 				D44470351F6E3C9000F5EE1A /* assignFinishViewController.swift in Sources */,
 				D42E11071F6A989B00E2E7DC /* previewCollectionViewCell2.swift in Sources */,
 				D44470291F6D8E3900F5EE1A /* classRecordCollectionViewCell.swift in Sources */,
+				D414AC581F9F986500D3E3DC /* popEditTableViewCell.swift in Sources */,
+				D4FBCB401FBC8A8D00B2D2CD /* carouselViewController.swift in Sources */,
 				D44470151F6BD73400F5EE1A /* shareViewController.swift in Sources */,
 				D444701F1F6C563900F5EE1A /* gameDetailViewController.swift in Sources */,
+				D414AC5A1F9FB11E00D3E3DC /* collectionData.swift in Sources */,
+				D4F5D7D91F97AB8A00514456 /* classStep.swift in Sources */,
+				D4F516651FA096C000A43CA7 /* guideViewController.swift in Sources */,
+				D4F5D7DC1F97AE4A00514456 /* classData.swift in Sources */,
 				D473ECEF1F665BF50055CE2F /* rewardCollectionViewCell.swift in Sources */,
-				D495A2721F62925100D19925 /* Starship.xcdatamodeld in Sources */,
 				D473ECF11F6665140055CE2F /* infoClassCollectionViewCell.swift in Sources */,
 				D495A2991F6466D400D19925 /* createClassViewController2.swift in Sources */,
+				D44AC49F1FBCB8160043943C /* animate2ViewController.swift in Sources */,
 				D4C3AFDB1F65637900DBEABF /* infoViewController.swift in Sources */,
 				D495A2911F63E4A200D19925 /* therapistClassViewController.swift in Sources */,
-				D444701D1F6C4E0D00F5EE1A /* guideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +603,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAT5HGC8RD;
 				INFOPLIST_FILE = Starship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bxj840124.Starship;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +619,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EAT5HGC8RD;
 				INFOPLIST_FILE = Starship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bxj840124.Starship;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,12 +652,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D495A2701F62925100D19925 /* Starship.xcdatamodeld */ = {
+		D42BCF5D1F99E30400DCEBD5 /* Starship.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D495A2711F62925100D19925 /* Starship.xcdatamodel */,
+				D42BCF5E1F99E30400DCEBD5 /* Starship.xcdatamodel */,
 			);
-			currentVersion = D495A2711F62925100D19925 /* Starship.xcdatamodel */;
+			currentVersion = D42BCF5E1F99E30400DCEBD5 /* Starship.xcdatamodel */;
 			path = Starship.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
